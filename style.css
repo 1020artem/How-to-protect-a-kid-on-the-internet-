@@ -1,0 +1,137 @@
+i {
+  color: white;
+}
+
+
+p {
+   font-family: "Open Sans", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.footer-columns{
+  display: flex;
+}
+.columns{
+  flex: 50%;
+  margin: 20px;
+}
+header, footer{
+   background-image: url("https://ngcmshak.ru/uploads/dsn/fe/72/001/1587646418_38-p-besshovnie-foni-dlya-saitov-112.jpg");  
+  padding: 15x;
+}
+main{
+  padding: 10px;
+  background-color: #a8a8a8;
+}
+.post{
+  background-color:#aeafd4;
+  
+  padding:20px;
+  border-radius: 61px;
+  box-shadow: -1px 2px 17px 3px rgba(38,46,97,1);
+  display: flex;
+  margin-bottom: 20px;
+}
+.post img{
+  border-radius: 30px;
+  margin: 20px;
+}
+.comment{
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.author{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.date{
+  color: silver;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+#sub-coment{
+  margin-left:40px;
+}
+#menu1 {
+  position: relative;
+  display: block;
+  height: auto;
+  width: 100%;
+  z-index: 10;
+}
+#menu1 ul {
+  position: relative;
+  display:block;
+  margin:0px;
+  padding:0px;
+  width:100%;
+  height: auto;
+  list-style:none;
+}
+#menu1 > ul::after{
+  display:block;
+  width:100%;
+  height:0px;
+  clear: both;
+  content: "";
+}
+#menu1 ul li {
+  position: relative;
+  display:block;
+  float: left;
+  width: auto;
+  height: auto;
+}
+#menu1 ul li a{
+  display:block;
+  padding: 9px 25px 0px 25px;
+  font-size: 15px;
+  line-height: 1.3em;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  height:36px;
+  box-sizing: border-box;
+  color:white;
+}
+
+#menu1 ul li ul{
+  position: absolute;
+  top: 36px;
+  left: 0px;
+  display: none;
+  width: 200px;
+  background: #95b4ed;
+}
+#menu1 ul li:hover a{
+    color: #f2f252;
+    display: block;
+  }
+ 
+  #menu1 ul li ul li{
+    float: none;
+    width: 100%;
+  }
+ 
+  #menu1 ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #ffffff;
+    color: white;
+  }
+ 
+  #menu1 ul li ul li:first-child a{
+    border-top: 0px;
+  }
+
+a {
+  text-decoration: none;
+  color: black
+}
